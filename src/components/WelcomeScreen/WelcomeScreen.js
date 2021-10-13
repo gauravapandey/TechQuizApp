@@ -9,7 +9,6 @@ const WelcomeScreen = (props) => {
 
     useEffect(()=>{
         setTimeout(()=>{
-            debugger;
             setAppInitialised();
         }, 6000)
     },[])
